@@ -17,6 +17,7 @@ Clone this project and run [examples/demo.js](examples/demo.js):
 ```sh
   $ git clone https://github.com/danielgatis/puppeteer-recaptcha-solver.git
   $ cd puppeteer-recaptcha-solver
+  $ export PUPPETEER_SKIP_DOWNLOAD='true'
   $ npm install
   $ node examples/demo.js
 ```
